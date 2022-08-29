@@ -11,8 +11,8 @@ function Cta() {
         <Row className="d-block mb-5 cta">
             <Col>
                 <div className="bg-dark text-white rounded p-5 mb-3">
-                    <div className="d-flex align-items-center cta_title mb-2">
-                        <i className="fa-solid fa-comment-dots me-2"></i>
+                    <div className="d-flex align-items-center mb-2">
+                        <i className="fa-solid fa-comment-dots cta_title-icon me-2"></i>
                         <h4>Let´s talk</h4>
                     </div>
                     <p>I’m interested in freelance opportunities, especially large projects.</p>
@@ -33,8 +33,8 @@ function Cta() {
                             </div>
                         </Col>
                         <Col xs={12} md={6}>
-                            <div className="d-flex align-items-center cta_title mb-2">
-                                <i className="fa-brands fa-github me-2"></i>
+                            <div className="d-flex align-items-center mb-2">
+                                <i className="fa-brands fa-github cta_title-icon me-2"></i>
                                 <h4>Last project on GitHub</h4>
                             </div>
                             <div className="mb-4">
