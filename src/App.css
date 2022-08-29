@@ -1,0 +1,103 @@
+/* body {
+  font-family: 'Roboto', sans-serif;
+} */
+.memoji {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: 100%;
+}
+
+.skill_icon {
+  font-size: 64px;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.f1-bg {
+  background-image: url("./assets/img/plus-x1.webp");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.project_cover {
+  max-width: 350px;
+  width: 100%;
+}
+
+.cta_title i {
+  font-size: 32px;
+}
+
+.race {
+  position: relative;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  z-index: 0;
+  display: grid;
+  justify-content: center;
+}
+
+.race_dashed-line {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-top: 3px dashed #5a5a5a;
+}
+
+@media (max-width: 575.98px) {
+  .f1-car {
+    max-width: 80% !important;
+  }
+}
+
+.f1-car.one {
+  animation: run 1.5s ease-in-out infinite;
+}
+
+.f1-car.two {
+  animation: run 1.5s ease-in-out infinite;
+  animation-delay: .5s;
+  
+}
+
+.f1-car.three {
+  animation: run 1.5s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+@keyframes run {
+  0% {
+    margin-left: 0;
+  }
+  
+  50% {
+    margin-left: 20%;
+  }
+  
+  100% {
+    margin-left: 0;
+  }
+}
