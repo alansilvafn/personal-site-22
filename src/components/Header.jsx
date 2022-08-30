@@ -30,7 +30,7 @@ function Header() {
         <Navbar bg="dark" variant="dark" expand="lg" className="py-3 mb-5">
             <Container className="d-block text-center d-md-flex text-md-start">
                 <div className="presentation text-white d-md-flex align-items-center mb-4 mb-md-0">
-                    <img src={memoji} className="memoji" alt="Alan memoji"></img>
+                    <img src={memoji} className="memoji" alt="Alan memoji" width="80" heigth="80"></img>
                     <div className="presentation_info mx-4">
                         <h1>Alan Silva</h1>
                         <Badge bg="primary">Front-End</Badge> 
@@ -41,8 +41,14 @@ function Header() {
                 <Navbar.Toggle aria-controls="navbar-nav" className="mb-3 mb-md-0"/>
                 <Navbar.Collapse id="navbar-nav">
                     <Nav className="ms-md-auto text-white">
-                        <Nav.Link href="https://www.linkedin.com/in/alanvieirads/" target="_blank"><i className="fa-brands fa-linkedin"></i> LinkedIn</Nav.Link>
-                        <Nav.Link href="https://github.com/alanvieirads/" target="_blank"><i className="fa-brands fa-github"></i> GitHub</Nav.Link>
+                        <Nav.Link href="https://www.linkedin.com/in/alanvieirads/" target="_blank">
+                            <i className="fa-brands fa-linkedin"></i>{' '}
+                            LinkedIn
+                        </Nav.Link>
+                        <Nav.Link href="https://github.com/alanvieirads/" target="_blank">
+                            <i className="fa-brands fa-github"></i>{' '}
+                            GitHub
+                        </Nav.Link>
                         <Nav.Link disabled>Portfolio (Soon)</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

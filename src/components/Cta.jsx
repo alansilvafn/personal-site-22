@@ -26,9 +26,9 @@ function Cta() {
                     <Row className="flex-md-row-reverse align-items-center">
                         <Col xs={12} md={6}>
                             <div className="race py-2 mb-5 mb-md-0">
-                                <img src={Car1} className="img-fluid f1-car one" alt="F1 Car"/>
-                                <img src={Car2} className="img-fluid f1-car two" alt="F1 Car"/>
-                                <img src={Car3} className="img-fluid f1-car three" alt="F1 Car"/>
+                                <img src={Car1} className="img-fluid f1-car one" width="206" height="61" alt="F1 Car"/>
+                                <img src={Car2} className="img-fluid f1-car two" width="206" height="61" alt="F1 Car"/>
+                                <img src={Car3} className="img-fluid f1-car three" width="206" height="61" alt="F1 Car"/>
                                 <span className="race_dashed-line"></span>
                             </div>
                         </Col>

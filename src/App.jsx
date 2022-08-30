@@ -1,5 +1,8 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/fontawesome/css/fontawesome.min.css'
+import './assets/fontawesome/css/solid.min.css'
+import './assets/fontawesome/css/brands.min.css'
 
 import Header from './components/Header'
 import Hero from './components/Hero'

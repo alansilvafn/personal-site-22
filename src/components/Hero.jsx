@@ -5,12 +5,11 @@ import coffee from '../assets/img/coffee.webp'
 import cv from '../assets/pdf/CV-Alan_William_Vieira_da_Silva-Front-end.pdf'
 import tecCv from '../assets/pdf/Technical_CV-Alan_William_Vieira_da_Silva-Front-end.pdf'
 
-
 function Hero() {
     return (
         <Row className="flex-md-row-reverse align-items-center mb-5">
-            <Col xs={12} md={6} className="d-none d-md-block floating">
-                <img src={coffee} className="img-fluid" alt="Coffe time"/>
+            <Col xs={12} md={6} className="d-none d-md-block">
+                <img src={coffee} className="img-fluid floating" width="878" height="650" alt="Coffe time"/>
             </Col>
             <Col xs={12} md={6}>
                 <div className="text-center text-md-start">
