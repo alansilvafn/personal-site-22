@@ -1,89 +1,32 @@
 .memoji {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 60px;
+  max-height: 60px;
   width: auto;
   height: 100%;
 }
+@media (max-width: 767.98px) {
+  .memoji {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
 
-.skill_icon {
+.skill svg {
   font-size: 64px;
 }
 
-.floating {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes floating {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  50% {
-    transform: translate(0, 15px);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
+.icon-inline {
+  vertical-align: -.125em;
 }
 
 .cta_title-icon {
   font-size: 32px;
 }
 
-.race {
-  position: relative;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-  z-index: 0;
-  display: grid;
-  justify-content: center;
-}
+/* .bg-special {
+  background-color: #1a041b!important;
+} */
 
-.race_dashed-line {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  border-top: 3px dashed #5a5a5a;
-}
-
-@media (max-width: 575.98px) {
-  .f1-car {
-    max-width: 80% !important;
-  }
-}
-
-.f1-car.one {
-  animation: run 1.5s ease-in-out infinite;
-}
-
-.f1-car.two {
-  animation: run 1.5s ease-in-out infinite;
-  animation-delay: .5s;
-  
-}
-
-.f1-car.three {
-  animation: run 1.5s ease-in-out infinite;
-  animation-delay: 1s;
-}
-
-@keyframes run {
-  0% {
-    margin-left: 0;
-  }
-  
-  50% {
-    margin-left: 20%;
-  }
-  
-  100% {
-    margin-left: 0;
-  }
+.bg-special {
+  background-color: #262626 !important;
 }

@@ -9,7 +9,7 @@ function Footer() {
             <Container>
                 <Row>
                     <Col>
-                        Thanks for visit! See you later 😁 Never give up, keep pushing and drink water 🏆
+                        Thanks for visit! 😁 Never give up, keep pushing and drink water 🏆
                     </Col>
                 </Row>
             </Container>

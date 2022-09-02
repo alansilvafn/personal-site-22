@@ -1,12 +1,9 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './assets/fontawesome/css/fontawesome.min.css'
-import './assets/fontawesome/css/solid.min.css'
-import './assets/fontawesome/css/brands.min.css'
 
 import Header from './components/Header'
 import Hero from './components/Hero'
-import SkillsList from './components/SkillsList'
+import SkillList from './components/SkillList'
 import Cta from './components/Cta'
 import Footer from './components/Footer'
 
@@ -19,7 +16,7 @@ function App() {
       
       <Container>
         <Hero/>
-        <SkillsList/>
+        <SkillList/>
         <Cta/>
       </Container>
 
